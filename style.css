@@ -1,5 +1,33 @@
 body {
-  width: 100%;
-  height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+img.art {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav > a {
+  padding: 10px;
+  background: goldenrod;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+section#featured-property > p {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+section#details > div {
+  display: block;
+  width: 25%;
+  background: red;
+  float: left;
 }
